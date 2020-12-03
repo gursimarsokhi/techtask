@@ -1,0 +1,43 @@
+.imageUtility{
+    width: 10px;
+    height: 20px;
+    background-color: bisque ;
+    display: block;
+}
+.navBar{
+    padding-top : 10px;
+}
+.navBarItem{
+    color: grey;
+}
+.centerImage{
+    width: 100px;
+    height: 100px;
+}
+.centerTopContainer{
+    background-color:  #6C5DD3;
+}
+.left{
+    border-color: grey;
+    border-left: 1px solid grey;
+    height: 100vh;
+}
+.navBarItem a:hover{
+    color: #6C5DD3;
+}
+.admin{
+    padding-top: 20px;
+    font-size: 12px;
+    color: grey;
+}
+.addHeading{
+    background-color: aquamarine;
+}
+.title{
+    font-weight: 500;
+}
+.subTitle{
+    font-size: 30px;
+    font-weight: 500;
+    display: block;
+}

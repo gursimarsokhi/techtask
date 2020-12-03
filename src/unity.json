@@ -1,0 +1,61 @@
+{
+    "sectionOne" : {"imageUrl" : "https://ui8-unity.herokuapp.com/img/logo.pnga"},
+    "sectionTwo" : 
+        {
+        "title" : "Admin tools",
+        "tools" : [
+            {"logo": "faHome", "category" : "Overview"},
+            {"logo": "logoTwo", "category" : "Products"},
+            {"logo": "logoThree", "category" : "Campaigns"},
+            {"logo": "logoFour", "category" : "Schedules"},
+            {"logo": "logoFive", "category" : "Payouts"},
+            {"logo": "logoSix", "category" : "Statements"},
+            {"logo": "logoSeven", "category" : "Settings"}
+            ]       
+        },
+    "sectionThree" : {        
+        "title" : "Insights",
+        "tools" : [
+            {"logo": "logoOne", "category" : "Inbox", "count" : "18"},
+            {"logo": "logoTwo", "category" : "Notifications", "count" : "2"},
+            {"logo": "logoThree", "category" : "Comments", "count" : "20"}
+            ]       
+        },
+    
+    "sectionFour" : {
+        "imageUrl" : "https://ui8-unity.herokuapp.com/img/ava.png",
+        "accountName" : "Tam Tran",
+        "accountDescription" : "Free Account"
+    },
+    "sectionFive" : {
+        "title" : "Hi Tam Tran",
+        "subtitle" : "Welcome Back",
+        "slider" : [
+            {"imageUrl" : "https://ui8-unity.herokuapp.com/img/slider-pic.png", 
+                "title" : "set a Google analytics code",
+                "body" : "did you know u can set google analytics code for project" ,
+                "options" : "Settings"
+            },
+            {"imageUrl" : "https://ui8-unity.herokuapp.com/img/slider-pic.png", 
+                "title" : "set a Google analytics code",
+                "body" : "did you know u can set google analytics code for project" ,
+                "options" : "Settings"
+            },
+            {"imageUrl" : "https://ui8-unity.herokuapp.com/img/slider-pic.png", 
+                "title" : "set a Google analytics code",
+                "body" : "did you know u can set google analytics code for project" ,
+                "options" : "Settings"
+            }
+        ]
+            
+    },
+    "sectionSix" : {
+        "title" : "Earnings by item",
+        "kit" : [
+            {"imageUrl" : "https://ui8-unity.herokuapp.com/img/figure-1.png","title" : "Bento 3D kit", "subtitle" : "Illustration"},
+            {"imageUrl" : "https://ui8-unity.herokuapp.com/img/figure-1.png","title" : "Bento 3D kit", "subtitle" : "Illustration"},
+            {"imageUrl" : "https://ui8-unity.herokuapp.com/img/figure-1.png","title" : "Collab UI kit", "subtitle" : "Coded Template"}
+        ]       
+    }
+
+}
