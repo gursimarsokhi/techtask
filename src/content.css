@@ -5,30 +5,82 @@
     display: block;
 }
 .navBar{
-    padding-top : 10px;
+    margin: 2px;
+    display: inline;
 }
 .navBarItem{
     color: grey;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+.navBarItem a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 600;
+}
+.displayCenter{
+
 }
 .centerImage{
     width: 100px;
     height: 100px;
 }
+.closeButton{
+    float: right;
+}
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.dot:hover{
+    background-color: #717171;
+    
+}
 .centerTopContainer{
     background-color:  #6C5DD3;
+    margin: 16px 11px;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px;
+    position: relative;
+}
+.slideShowContainer{
+
+}
+.topContent{
+    color: white;
+    width: 120px;
 }
 .left{
     border-color: grey;
     border-left: 1px solid grey;
     height: 100vh;
 }
+.itemLink{
+    text-decoration: none;
+}
 .navBarItem a:hover{
-    color: #6C5DD3;
+    color: grey;
+}
+.navBar li{
+    list-style: none;
+}
+.selected{
+    background-color: #6C5DD3;
 }
 .admin{
     padding-top: 20px;
     font-size: 12px;
     color: grey;
+    display: block;
 }
 .addHeading{
     background-color: aquamarine;
@@ -40,4 +92,49 @@
     font-size: 30px;
     font-weight: 500;
     display: block;
+}
+.logoContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoCount{
+    background-color: rgb(230, 86, 61);
+    border-radius: 25px;
+    padding: 4px;
+    font-size: small;
+    color: white;
+}
+.logoText{
+    color: grey;
+    font-size: small;
+    font-weight: 600;
+}
+.kitImage{
+    margin-right: 18px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(226, 134, 180);
+    border-radius: 15px;
+}
+.kitContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.kitList{
+    list-style: none;
+}
+.kitContent{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 15px;
+}
+.kitSubContent{
+    font-size: 11px;
+    font-weight: 600;
+    color: gray;
+}
+.bottonSection{
+    box-shadow: ivory;
 }
